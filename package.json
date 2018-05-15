@@ -3,8 +3,22 @@
   "version": "1.0.0",
   "description": "![gif](https://raw.githubusercontent.com/seann999/dodge_tfjs/master/demo.gif)",
   "main": "agent.js",
+  "jest": {
+    "transform": {
+      "^.+\\.tsx?$": "ts-jest"
+    },
+    "testRegex": "_test_/.*.spec.ts",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json",
+      "node"
+    ]
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "sudo node --inspect=7000 node_modules/.bin/jest --runInBand  --watch"
   },
   "repository": {
     "type": "git",
@@ -19,10 +33,13 @@
   "homepage": "https://github.com/qcgm1978/dodge_tfjs#readme",
   "dependencies": {
     "bootstrap": "^4.1.1",
+    "jest": "^22.4.3",
     "jquery": "^3.3.1",
     "matter-js": "^0.14.1",
     "popper.js": "^1.14.3",
-    "tfjs": "^0.6.0"
+    "tfjs": "^0.6.0",
+    "ts-jest": "^22.4.6",
+    "typescript": "^2.8.3"
   },
   "devDependencies": {
     "google-charts": "^1.1.0"

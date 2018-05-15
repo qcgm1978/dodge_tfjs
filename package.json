@@ -1,0 +1,30 @@
+{
+  "name": "dodge_tfjs",
+  "version": "1.0.0",
+  "description": "![gif](https://raw.githubusercontent.com/seann999/dodge_tfjs/master/demo.gif)",
+  "main": "agent.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qcgm1978/dodge_tfjs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/qcgm1978/dodge_tfjs/issues"
+  },
+  "homepage": "https://github.com/qcgm1978/dodge_tfjs#readme",
+  "dependencies": {
+    "bootstrap": "^4.1.1",
+    "jquery": "^3.3.1",
+    "matter-js": "^0.14.1",
+    "popper.js": "^1.14.3",
+    "tfjs": "^0.6.0"
+  },
+  "devDependencies": {
+    "google-charts": "^1.1.0"
+  }
+}

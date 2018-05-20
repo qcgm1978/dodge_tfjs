@@ -18,7 +18,8 @@
     ]
   },
   "scripts": {
-    "test": "sudo node --inspect=7000 node_modules/.bin/jest --runInBand  --watch"
+    "test": "sudo node --inspect=7002 node_modules/.bin/jest --runInBand  --watch",
+    "mocha": "mocha mocha/**/**.spec.ts --require ts-node/register --watch-extensions ts --watch --recursive --inspect"
   },
   "repository": {
     "type": "git",
@@ -42,6 +43,7 @@
     "typescript": "^2.8.3"
   },
   "devDependencies": {
+    "chai": "^4.1.2",
     "google-charts": "^1.1.0"
   }
 }

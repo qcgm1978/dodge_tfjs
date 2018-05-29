@@ -1,5 +1,10 @@
 {
     "files": [
-        "module/*.ts"
-    ]
+        "html/region.ts"
+    ],
+    "compilerOptions": {
+        "outDir": "build/",
+        "noImplicitAny": true,
+        "target": "es5"
+    }
 }
